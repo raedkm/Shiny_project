@@ -11,8 +11,8 @@ library(shiny)
 library(ggplot2)
 library(dplyr)
 
-gapminder <- readRDS("gapminder.rds")
-source("workshopFunctions.R")
+gapminder <- readRDS("Input/gapminder.rds")
+source("Script/workshopFunctions.R")
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
